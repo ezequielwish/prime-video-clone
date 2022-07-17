@@ -89,17 +89,17 @@
     flex-direction: column;
     height: 553px;
     padding: 60px 55% 60px 5%;
-    color: white;
+    color: #fffffa;
     gap: 35px;
     line-height: 27px;
 }
 
-.principal-conteudo-1-titulo {
+.principal-conteudo-1-titulo , .principal-conteudo-3-titulo {
     font-size: 40px;
     font-weight: 500;
 }
 
-.principal-conteudo-1-texto-1 {
+.principal-conteudo-1-texto-1, .principal-conteudo-3-texto {
     font-size: 20px;
 }
 
@@ -110,7 +110,7 @@
     max-width: 280px;
 }
 
-.principal-conteudo-1-botao {
+.principal-conteudo-1-botao, .principal-conteudo-3-botao {
     background-color: #0f79af;
     border-radius: 3px;
     height: 55px;
@@ -195,10 +195,15 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    justify-content: center;
     height: 530px;
     padding: 60px 5% 60px 55%;
+    gap: 35px;
+    line-height: 27px;
 }
 
-.principal-conteudo-3-titulo {
+.principal-conteudo-3-botao {
+    padding: 20px 90px;
+    max-width: max-content;
 }
+
