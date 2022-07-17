@@ -27,6 +27,10 @@
     max-height: 35px;
 }
 
+.cabecalho-logo:hover {
+    cursor: pointer;
+}
+
 .cabecalho-navegacao {
     display: flex;
     align-items: center;
@@ -60,6 +64,10 @@
     font-size: 17px;
     padding: 9px 21px;
     border-radius: 4px;
+}
+
+.cabecalho-navegacao-itens-experimente:hover {
+    background-color: #1390cf;
 }
 
 .cabecalho-navegacao-itens-pesquisar {
@@ -233,3 +241,26 @@
     max-width: 300px;
 }
 
+.rodape {
+    background-image: linear-gradient(#171717, #222222, #222222);
+    height: 137px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    color: #c3c7ca79;
+    font-size: 15px;
+}
+
+.rodape-texto, .rodape-logo {
+    margin-top: -12px;
+}
+
+.rodape-texto-link {
+    color: #186a8a;
+}
+
+button:hover, span:hover{
+    cursor: pointer;
+}
