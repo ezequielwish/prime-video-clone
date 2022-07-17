@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    background-color: #19232e;
+    color: #c3c7ca;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 50px;
+    width: 100%;
+    gap: 25px;
+}
+
+.cabecalho-logo {
+    max-height: 35px;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cabecalho-navegacao-barra {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    font-size: 16px;
+}
+
+.cabecalho-navegacao-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #c3c7ca;
+}
+
+.cabecalho-navegacao-itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecalho-navegacao-itens-experimente {
+    background-color: #0f79af;
+    color: #cbdfea;
+    font-size: 17px;
+    padding: 9px 21px;
+    border-radius: 4px;
+}
+
+.cabecalho-navegacao-itens-pesquisar {
+    display: none;
+}
+
+.cabecalho-navegacao-itens-icone {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50px;
+    gap: 5px;
+    max-height: 20px;
+}
+
+.principal {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-conteudo-1 {
+    background-color: #000000;
+    background-image: linear-gradient(to right, black 40%, transparent 58%), url(../images/background-1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 553px;
+    padding: 60px 55% 60px 5%;
+    color: white;
+    gap: 35px;
+    line-height: 27px;
+    font-weight: lighter;
+}
+
+.principal-conteudo-1-titulo {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.principal-conteudo-1-texto-1 {
+    font-size: 20px;
+}
+
+.principal-conteudo-1-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 280px;
+}
+
+.principal-conteudo-1-botao {
+    background-color: #0f79af;
+    border-radius: 3px;
+    height: 55px;
+    font-size: 16px;
+    color: #fffffa;
+}
+
+.divisor {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    line-height: 0px;
+}
+
+.divisor-linha-esquerda {
+    border-top: 1px solid white;
+    width: 43%;
+ }
+
+ .divisor-meio {
+    text-align: center;
+    background-color: #000000;
+ }
+
+ .divisor-linha-direita {
+    border-top: 1px solid white;
+    width: 43%;
+ }
+
+.principal-conteudo-1-texto-2 {
+    font-size: 15px;
+    line-height: 15px;
+}
+
