@@ -94,12 +94,12 @@
     line-height: 27px;
 }
 
-.principal-conteudo-1-titulo , .principal-conteudo-3-titulo {
+.principal-conteudo-1-titulo , .principal-conteudo-3-titulo, .principal-conteudo-4-coluna-titulo {
     font-size: 40px;
     font-weight: 500;
 }
 
-.principal-conteudo-1-texto-1, .principal-conteudo-3-texto {
+.principal-conteudo-1-texto-1, .principal-conteudo-3-texto, .principal-conteudo-4-coluna-texto {
     font-size: 20px;
 }
 
@@ -205,5 +205,31 @@
 .principal-conteudo-3-botao {
     padding: 20px 90px;
     max-width: max-content;
+}
+
+.principal-conteudo-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    height: 580px;
+    padding: 35px 80px;
+    gap: 40px;
+}
+
+.principal-conteudo-4-coluna {
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.principal-conteudo-4-coluna-imagem {
+    max-height: 300px;
+    max-width: 300px;
 }
 
